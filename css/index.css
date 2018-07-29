@@ -1,0 +1,282 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #DEDEDE;
+}
+.font-family-1{
+	font-family: 'Raleway', sans-serif;
+}
+.font-family-2{
+	font-family: 'Open Sans', sans-serif;
+}
+.bg-white{
+	background-color: white;
+}
+.bg-purple{
+	background-color: #48307A;
+}
+.bg-red{
+	background-color: #EE1C1C;
+}
+.text_white{
+	color: white;
+}
+.text_black{
+	color: black;
+}
+.text_purple{
+	color: #48307A;
+}
+.content{	
+	width: 85%;
+	margin: 5% auto 0;
+	background: white;
+	box-shadow: 0px 0px 20px #777777;
+	border-radius: 20px;
+}
+.sub-content{
+	width: 90%;	
+	display: flex;
+	align-items: stretch;
+	flex-direction: row;
+	flex-wrap: wrap;
+	position: relative;
+
+}
+.barraRoja{
+	font-size: 30px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+	float: right;
+	top: 74%;
+	right: 0;
+
+}
+.first-content-1{
+	/*box-sizing: border-box;*/
+	flex-grow: 1;
+	background-color: white;
+	height: 900px;
+	border-radius: 20px 0 0 20px;
+}
+.first-content-2{
+	flex-grow: 3;
+	background-image: url(../img/Banner.jpg);
+	background-position: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.logo{
+	position: relative;
+	left: 20%;
+	top: 7%;
+}
+.sub-titulo{
+	position: relative;
+	left: 20%;
+	margin-top: 200px;
+	font-size: 30px;
+}
+.menu-content{
+	display: flex;
+	position: absolute;
+	align-items: center;
+	/*right: 0;*/
+	/*top: 10%;*/
+	float: right;
+	top: 10%;
+	right: 0;
+}
+.buscar{
+	padding-left: 20px;
+	padding-right: 60px;
+}
+.menu{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+.menu ul{
+	list-style: none;
+}
+.menu li{
+	display: inline-block;
+	padding: 10px 20px;
+}
+.menu li:hover{
+	background-color: #14072f;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+}
+.buscar input{
+	border-radius: 5px;
+	border: none;
+	padding: 2px 5px;
+}
+
+/*cuadros*/
+.content-images{
+	width: 85%;
+	margin: 0 auto;
+}
+.cuadros{
+	width: 90%;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	position: relative;
+}
+.cuadro{
+	/*height: 100px;*/
+	background-color: red;
+	position: relative;
+	top: -120px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background-color: white;
+	border-radius: 0 0 20px 20px;
+	box-shadow: 0px 0px 20px #777777;
+}
+.texto{
+	text-align: center;
+	padding: 30px 20px 40px ;
+}
+.cuadro-1{
+	flex-grow: 3;
+	margin-right: 20px;
+}
+.cuadro-2{
+	flex-grow: 2;
+}
+.cuadro-3{
+	flex-grow: 2;
+	margin-left: 20px;
+}
+figure{
+	width: 100%;
+}
+.texto a{
+	text-decoration: none;
+	color: gray;
+}
+
+/*header;*/
+.barraGris{
+	font-size: 30px;
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.section-cuadros{
+	padding-top: 150px;
+	margin: 0 auto;
+	width: 65%;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	position: relative;
+}
+.section-cuadro{
+	background-color: red;
+	position: relative;
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background-color: white;
+	border-radius: 0 0 20px 20px;
+	box-shadow: 0px 0px 20px #777777;
+}
+.section-cuadro-1{
+	flex-grow: 2;
+	margin-right: 20px;
+}
+.section-cuadro-2{
+	flex-grow: 2;
+}
+.section-cuadro-3{
+	flex-grow: 2;
+	margin-left: 20px;
+}
+p{
+	width: 100%;
+}
+.barraMorada{
+	margin-top: 140px;
+	font-size: 17px;
+	/*position: relative;*/
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+}
+.formulario{
+	padding: 42px 0;
+}
+.formu{
+	width: 320px;
+	margin: 0 auto ;
+	padding: 20px 0;
+	text-align: center;
+	border: 3px solid #48307A;
+}
+.formu .text input{
+	width: 255px;
+	padding: 7px 10px;
+	text-align: center;
+	border: 1px solid black;
+	font-size: 17px;
+}
+.formu ::placeholder{
+	font-size: 17px;
+}
+label{
+	font-size: 12px;
+}
+.chek{
+	padding-top: 10px;
+}
+/*input[type="checkbox"]{
+	border: 1px solid black;
+}*/
+.boton{
+	position: relative;
+	top: -16px;
+	display: flex;
+	justify-content: center;
+}
+button{
+	padding: 5px 17px;
+	border: none;
+}
+.final{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+.marca{
+	display: flex;
+	font-size: 17px;
+	font-weight: bold;
+	align-items: center;
+	box-sizing: border-box;
+}
+.redes{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.img{
+	padding-right: 20px
+}
